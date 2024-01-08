@@ -1,0 +1,91 @@
+.container{
+    font-style:italic;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(89, 130, 130);
+    padding: 25px;
+    color: whitesmoke;
+}
+
+.profile_image{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 20px;
+    border-radius: 12px;
+    border: 10px solid rgb(75, 75, 104);
+    box-sizing: border-box;
+}
+.bio{
+    float: left;
+    text-align: center;
+}
+.contact_info{
+    float: right;
+}
+.contact_info ul{}
+.contact_info ul li{
+    list-style-type: none;
+    padding: 7px;
+}
+.contact_info ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.clear_div{
+    clear: both;
+}
+hr{
+    height: 5px;
+    background-color: rgb(211, 227, 227);
+    border: 2px solid whitesmoke;
+}
+.personal_info_heading{
+    float: left;
+}
+.personal_info{
+
+    float: right;
+    font-size: 18px;
+}
+.work_expereance{
+    float: left;
+    width: 30%;
+}
+.work_exp_info{
+    width: 70%;
+    float: right;
+}
+.education_title{
+    width: 20%;
+    float: left;
+}
+.education_info{
+    width: 80%;
+    float: right;
+
+}
+.edu_left_info{
+    float: left;
+    margin: 20px;
+    box-sizing: border-box;
+}
+.edu_right_info{
+    float: left;
+}
+.social_media{
+    text-align: center;
+}
+.social_media ul{}
+.social_media ul li{
+    list-style-type: none;
+
+    display: inline;
+}
+.social_media li a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
